@@ -89,7 +89,7 @@ def main(n_rows: int = 200_000) -> None:
     write_deltalake(out, df.to_arrow(), mode="overwrite")
     n_unique = df.select(pl.col("request_id").n_unique()).item()
     print(
-        f"Wrote {n_rows:,} rows → {out}\n"
+        f"Wrote {n_rows:,} rows -> {out}\n"
         f"  unique request_ids: {n_unique:,}  ({n_rows - n_unique:,} duplicates seeded for dedup demo)\n"
         f"  date span: {DAYS_SPAN} UTC days from {start.date()}"
     )
