@@ -1,6 +1,6 @@
 # Architecture Brief — LLM Observability Lakehouse at 1B Requests/Day
 
-**Duong Van Hiep · 2A202600052 · VinUniversity AICB · Day 18 Track 2**
+**Dương Văn Hiệp · 2A202600052 · VinUniversity AICB · Day 18 Track 2**
 
 ---
 
